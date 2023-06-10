@@ -74,3 +74,15 @@ button {
   text-align: center;
   color: white;
 }
+.credit {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  display: block;
+  margin-left: 25.5%;
+}
+.credit-link {
+  color: #007bff;
+  font-size: 15px;
+  display: inline;
+}

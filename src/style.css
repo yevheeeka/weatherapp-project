@@ -1,0 +1,76 @@
+.container {
+  width: 760px;
+  height: 400px;
+  margin: 0 auto;
+  color: white;
+  border: 5px solid #5a6275;
+  margin-top: 25px;
+
+  padding: 20px;
+  padding-right: 0;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/507/original/pexels-flickr-156787.jpg?1683822294");
+  background-size: 790px;
+}
+body {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+}
+.date {
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
+  display: block;
+  font-size: calc(1.3rem + 0.6vw);
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--bs-heading-color, inherit);
+}
+a:hover {
+  text-decoration: underline;
+}
+input[type="search"],
+textarea {
+  border: none;
+  color: white;
+  background: transparent;
+  outline: none;
+  border-bottom: 1px solid white;
+}
+
+button {
+  font-size: 15px;
+  padding: 10px 16px;
+  background-color: rgb(188, 196, 229);
+  margin-left: 28px;
+}
+.current-city {
+  font-size: 18.5px;
+}
+.current-icon {
+  font-size: 30px;
+}
+.col-md-2 {
+  padding: 0;
+}
+.vl {
+  border-left: 3px solid #5a6275;
+  height: 398px;
+  position: absolute;
+  left: 57%;
+  top: 27px;
+}
+::placeholder {
+  text-align: center;
+  color: white;
+}
